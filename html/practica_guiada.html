@@ -20,8 +20,7 @@
 			border-top-color: #9ACD32;
 			padding-top: 7px;
 			padding-left: 100px;
-
-		}
+			}
 		.atencion{
 			color: black;
 			border: 2px dashed #8B4513;
@@ -29,12 +28,31 @@
 			margin-top: 25px;
 			margin-bottom: 35px;
 			padding: 20px;
+
 		}
+		.atencion strong{ 	/* estilo descendiente que modifica la etiqueta strong de la clase atención*/
+			color: #F6E41D; 
+		}
+		#cuerpo{
+			background-color: #FFFDBA;
+			background-image: url(../imagenes/fondo.jpg);
+			background-repeat: repeat-y;
+			background-position: center top;
+			width: 760px;
+			margin: 0 auto;
+		}
+		h1+p{
+			color: #68946E;
+			font-size: 1.2em;
+			line-height: 140%;
+			margin-top: 20px;
+		}
+
 
 	</style>
 
 </head>
-<body>
+<body id="cuerpo">
 	<div id="banner"><img src="../imagenes/banner.jpg" width="760" height="192" alt="CSS: The Missing Manual">
 </div>
 
