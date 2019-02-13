@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* Documento Css */
+/*Aqui comienta el reset Css*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+table{border-collapse: collapse; border-spacing: 0; }
+td, th, caption, {font-weight: normal; text-align: left; }
+img, fieldset{ border: 0; }
+ol {padding-left: 1.4em; list-style: decimal; }
+ul {padding-left: 1.4em; list-style: square; }
+q:before, q:after {content:'';
+ }
+ /*Hasta Aqui el reset Css*/
+
+ #principal{     /*estilo para el section*/
+ 	float:left;
+ 	width:580px;
+ 	
+  	}
+ #lateral{ 		/*estilo para la barra lateral*/
+ 	margin-left:600px;
+ 	padding:15px;
+ 	background:#EAC1FE;
+ 	
+  }
+ body{
+ 	color:#441C1C;
+ 	font-family:Tahoma, Verdana, Segoe, sans-serif;
+ 	padding-top: 100px;
+ 	background:#EAC1FE url(../imagenes/fondo_cuerpo.png) repeat-x;	
+ 	width:800px;
+ 	margin:0 auto;
+ }
+h1{
+	font-size: 3em;
+	font-family: monospace;
+}
+h2{
+	font-size: 2.2em;
+	color: #865757;
+	margin-bottom: 5px;
+}
+#principal h2{
+	color: #A13434;
+	border-bottom: 2px #FFFFFF solid;
+	background: url(../imagenes/flor.png) no-repeat;
+	padding: 0 0 2px 80px;
+}
+#principal p{
+	color: #5B2828;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 1.1em;
+	line-height: 150%;
+	margin-bottom: 10px;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+#principal .introduccion{
+	color: #40434E;
+	font-family: fantasy;
+	font-size: 1.2em;
+	margin-left: 0px;
+	margin-bottom: 25px;
+}
