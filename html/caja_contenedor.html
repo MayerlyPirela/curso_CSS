@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja y contenedores</title>
+    <link rel="stylesheet" href="">
+</head>
+<style type="text/css">
+	/*Aqui comienta el reset Css*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+table{border-collapse: collapse; border-spacing: 0; }
+td, th, caption, {font-weight: normal; text-align: left; }
+img, fieldset{ border: 0; }
+ol {padding-left: 1.4em; list-style: decimal; }
+ul {padding-left: 1.4em; list-style: square; }
+q:before, q:after {content:'';
+ }
+ /*Hasta Aqui el reset Css*/
+    html{
+        background-color: #29556f;
+    }
+    body{
+        background-color: aliceblue;
+        border: 3px solid #012573;
+        width: 760px;
+        margin-top: 20px;
+        margin-left: auto; /*margin: 20px auto 0 auto, abreviado el margin*/
+        margin-right: auto;
+        padding: 15px;
+    }
+    h1{
+        font-size: 40px;
+        font-family: cursive;
+        letter-spacing: 1px;
+        color: teal; 
+        text-transform: uppercase;
+        background-color:lightgray;
+        padding: 5px 15px 2px 15px;
+        margin: 0 -15px 20px -15px;
+    }
+    h2{
+        font-size: 24px;
+        font-family: sans-serif;
+        color: cornflowerblue;
+        border-top: 2px dotted #101e4a;
+        border-bottom: 2px dotted #101e4a;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 15px 0 5px 0;
+    }
+    
+    
+</style>
+    <body id="article">
+    <div id="banner"><img src="../imagenes/banner.jpg" width="760" height="198" alt="CSS: The Missing Manual">
+    </div>
+
+    <h1>El mágico mundo del CSS</h1>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+
+    <h2>NOTA</h2>
+    <p class="note">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+    <h2>El poder inimaginable del CSS</h2>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
+    <h2>No soy yo!</h2>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+    <h2>Nunca a mi!</h2>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+    <p>&nbsp;</p>
+
+</body>
+
+</html>
+
