@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* Documento Css */
+/*Aqui comienta el reset Css*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+table{border-collapse: collapse; border-spacing: 0; }
+td, th, caption, {font-weight: normal; text-align: left; }
+img, fieldset{ border: 0; }
+ol {padding-left: 1.4em; list-style: decimal; }
+ul {padding-left: 1.4em; list-style: square; }
+q:before, q:after {content:'';
+ }
+ /*Hasta Aqui el reset Css*/
+body{
+    font-size: 62.5%;
+    background-color: #fcf9f7;
+}
+h1{
+    font: bold 3.4em cursive;
+    width: 35%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 15px;
+    color: #3b493f;
+}
+h2{
+    font: bold 2.2em Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    color: #000000;
+}
+section{
+    width: 91%;
+    border-top: 2px dashed #808080;
+    margin: 15px auto;
+}
+
+figure{
+    float: left;
+}
+
+figure img{
+    padding: 4px;
+    background: #808080;
+    border-radius: 20px;
+    -moz-transform:-moz-transform 0.3s ease-in-out 0.1;
+    -webkit-transform:-webkit-transform 0.3s ease-in-out 0.1;
+    box-shadow: #C0C0C0 5px 5px 10px;
+    margin: 15px auto;
+    margin-left: 30px;
+
+}
+
+figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 5px;
+    padding: 4px;
+    margin: 4px;
+}
