@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Barra de Navegación con Css">
+    <meta name="description" content="ejercicio 1 con Css para hacer barra de navegación">
+    <title>Barra de navegación</title>
+ <style type="text/css">
+/*Aqui comienta el reset Css*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+table{border-collapse: collapse; border-spacing: 0; }
+td, th, caption, {font-weight: normal; text-align: left; }
+img, fieldset{ border: 0; }
+ol {padding-left: 1.4em; list-style: decimal; }
+ul {padding-left: 1.4em; list-style: square; }
+q:before, q:after {content:'';
+ }/*Hasta Aqui el reset Css*/
+     body{
+         font: 62.5% verdana, Arial, Helvetica, sans-serif;
+         padding: 20px;
+     }
+     #barra{
+         margin: 0;
+         padding: 0;
+         list-style: none;
+         /*width: 185px;*/
+         border-left: 1px dashed #01271e;
+         overflow: hidden;
+         
+     }
+     #barra a{
+         color: #1c2c39;
+         font-size: 11px;
+         text-transform: uppercase;
+         text-decoration: none;
+         border: 1px dashed #01271e;
+         padding: 7px 5px;
+         display: block;
+         
+         background-color: #d1cfcd;
+         background-image: url(../imagenes/fondolink.png);
+         background-repeat: no-repeat;
+         background-position: 0 2px;
+         
+         padding: 7px 5px 7px 30px;
+        /* border-bottom: none;*/     
+         border-left: none;
+     }
+     #barra a:hover{
+         font-weight: bold;
+         background-color: #95ffff;
+         background-position: 3px 50%;
+     }
+     #inicio #linkinicio,
+     #caracteristicas #linkcaracteristicas,
+     #expertos #linkexpertos,
+     #preguntas #linkpreguntas,
+     #proyectos #linkproyectos,
+     #foros #linkforos{
+         background-color: white;
+         background-position: 97% 100%;
+         font-weight: bold;
+     }
+     #barra li{
+         float: left;
+         width: 15em;
+     }
+    </style> 
+</head>
+
+<body id="inicio">
+    <nav id="barra">
+        <li><a href="barra_nave.html" id="linkinicio">Inicio</a></li>
+        <li><a href="caracteristicas.html" id="linkcaracteristicas">Caracter&iacute;sticas</a></li>
+        <li><a href="expertos.html" id="linkexpertos">Expertos</a></li>
+        <li><a href="preguntas.html" id="linkpreguntas">Preguntas</a></li>
+        <li><a href="proyectos.html" id="linkproyectos">Proyectos</a></li>
+        <li><a href="foros.html" id="linkforos">Foro</a></li>
+
+    </nav>
+
+</body>
+
+</html>
